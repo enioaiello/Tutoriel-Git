@@ -2,7 +2,6 @@
 Bienvenue sur ce tutoriel Git ! Ici nous allons découvrir quelques points essentiels de Git (et de Github par extension) :
 - Comment créer une repository
 - Comment envoyer vos fichiers
-- Et bien plus !
 ## Préparatifs
 Pour ce tutoriel, vous aurez besoins de [Git](https://git-scm.com/) (nous utiliserons la version Bash pour que ce dernier fonctionne sur Windows, macOS et LInux de la même manière). Prenez la version adaptée à votre système d'exploitation. Par exemple si vous avez un PC sous Windows 11, prenez la version `Windows` !
 ## Créer un répertoire
@@ -25,3 +24,5 @@ Si vous n'avez aucuns fichiers, copiez simplement le lien, sinon cliquez sur `Co
 - Effectuez ensuite la commande `git commit -m "[Votre commit]"` (remplacez le `[Votre commit]` par le commentaire de votre commit, comme par exemple `Ajout de différents fichiers`)
 - Effectuez enfin la commande `git push origin main` pour poster vos changements
 **Félicitations !** Vous venez de poster votre premier projet sur Github !
+## Notes 
+Vous retrouverez bientôt un tutoriel plus complet directement sur le [site officiel](https://enioaiello.github.io/Tutoriel-Git) !
