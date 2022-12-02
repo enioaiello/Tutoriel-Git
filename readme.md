@@ -14,11 +14,14 @@ Commençons par les bases, pour commencer votre nouveau projet, rendez-vous sur 
 Pour pouvoir commencer à importer vos fichiers sur votre répertoire il vous faut paramétrer votre compte sur Git. Pour se faire :
 - Ouvrez Git et tapez la commande `git config --global user.name "[nom]"`, faites bien attention à remplacer `[nom]` par votre nom d'utilisateur (ou pseudonyme) !
 - Et enfin, effectuez ensuite la commande `git config --global user.email "[adresse email]"`, et encore une fois, faites attention à remplacer `[adresse email]` par l'**adresse e-mail de votre compte Github** !
-## Suite du tutoriel
-Le tutoriel est toujours en cours de création, revenez plus tard !
-<!-- Si vous n'avez aucuns fichiers, copiez simplement le lien, sinon cliquez sur `Code` et copiez le lien de votre projet, il va nous servir pour importer vos fichiers !
+## Envoyer vos fichiers
+Si vous n'avez aucuns fichiers, copiez simplement le lien, sinon cliquez sur `Code` et copiez le lien de votre projet, il va nous servir pour importer vos fichiers !
 - Ouvrez `Git Bash`
 - Sélectionnez la destination que vous désirez sélectionner avec des `cd` (pour sélectionner une destination) et des `ls` (pour afficher le contenu de vos dossiers). De préférences, mettez-le dans un dossier sur votre compte !
 - Mettez tout vos fichiers dans ce dossier
-- Effectuez la commande `git init [nom-du-projet]` (en remplaçant encore une fois `[nom-du-projet]` par le nom de votre projet)
-- Effectuez -->
+- Effectuez la commande `git clone [url-du-projet]` (en remplaçant encore une fois `[url-du-projet]` par le lien de votre projet)
+- Effectuez vos actions (comme créer le fichier `readme.md` ou n'importe quel fichier)
+- Effectuez ensuite la commande `git add *` pour ajouter tout les fichiers de votre répertoire
+- Effectuez ensuite la commande `git commit -m "[Votre commit]"` (remplacez le `[Votre commit]` par le commentaire de votre commit, comme par exemple `Ajout de différents fichiers`)
+- Effectuez enfin la commande `git push origin main` pour poster vos changements
+**Félicitations !** Vous venez de poster votre premier projet sur Github !
