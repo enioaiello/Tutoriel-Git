@@ -25,4 +25,4 @@ Si vous n'avez aucuns fichiers, copiez simplement le lien, sinon cliquez sur `Co
 - Effectuez enfin la commande `git push origin main` pour poster vos changements
 **Félicitations !** Vous venez de poster votre premier projet sur Github !
 ## Notes 
-Vous retrouverez bientôt un tutoriel plus complet directement sur le [site officiel](https://enioaiello.github.io/Tutoriel-Git) !
+Vous retrouverez bientôt un tutoriel plus complet directement sur le [site officiel](https://enioaiello.github.io/Tutoriel-Git) ! Si vous avez également besoins d'aide, contactez la [communauté](https://discord.gg/Uv6DHVsW).
