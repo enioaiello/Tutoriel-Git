@@ -23,12 +23,12 @@ li {
     padding: 1vw;
 }
 
-a {
+.navBarItems {
     color: white;
     text-decoration: none;
 }
 
-div {
+#mainHome {
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -37,6 +37,16 @@ div {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+#mainDocumentation {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
 }
 
 .button {
@@ -49,4 +59,15 @@ div {
     color: white;
     text-decoration: none;
     padding-top: 1.5vh;
+}
+
+span {
+    color: white;
+    background-color: dimgray;
+    border-radius: 5px;
+}
+
+footer {
+    color: gray;
+    text-align: center;
 }

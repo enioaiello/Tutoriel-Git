@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoriel Git</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html" class="navBarItems" title="Retourner à l'accueil">Accueil</a>
+            </li>
+            <li>
+                <a href="documentation.html" class="navBarItems" title="Accéder aux ressources">Commencer</a>
+            </li>
+            <li>
+                <a href="https://discord.gg/Uv6DHVsW" target="_blank" class="navBarItems" title="Rejoindre la communauté Discord">Communauté</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div id="mainDocumentation">
+        <h2>Commencer</h2>
+        <p>Bienvenue dans ce tutoriel où nous allons apprendre le <strong>Git</strong> ainsi que le <strong>Github</strong> !</p>
+        <hr>
+        <h3>Préparatifs</h3>
+        <p>Pour ce tutoriel, vous aurez besoins de <a href="https://git-scm.com/" target="_blank">Git</a> (nous utiliserons la version Bash pour que ce dernier fonctionne sur Windows, macOS et LInux de la même manière). Prenez la version adaptée à votre système d'exploitation. Par exemple si vous avez un PC sous Windows 11, prenez la version <span>Windows</span> !
+        </p>
+        <h3>Paramétrer Git</h3>
+        <p>Pour pouvoir commencer à importer vos fichiers sur votre répertoire il vous faut paramétrer votre compte sur Git. Pour se faire :<br>
+            - Ouvrez Git et tapez la commande <span>git config --global user.name "[nom]"</span>, faites bien attention à remplacer <span>[nom]</span> par votre nom d'utilisateur (ou pseudonyme) !<br>
+            - Et enfin, effectuez ensuite la commande <span>git config --global user.email "[adresse email]"</span>, et encore une fois, faites attention à remplacer <span>[adresse email]</span> par l'<strong>adresse e-mail de votre compte Github</strong> !</p>
+        <h3>Créer un répertoire</h3>
+        <p>Commençons par les bases, pour commencer votre nouveau projet, rendez-vous sur <a href="https://github.com/" target="_blank">Github</a> et connectez-vous (ou inscrivez-vous).<br> Ensuite, vous pouvez passer à ces étapes :<br>
+            - Cliquez sur le bouton vert <span>New</span> pour créer un nouveau repertoire.<br>
+            - Donnez un nom à votre repertoire, par exemple <span>mon-premier-repertoire</span> !<br>
+            - Vous pouvez choisir de mettre un <span>readme.md</span> pour détailler votre projet auprès de la communauté !</p>
+        <h3>Envoyer vos fichiers</h3>
+        <p>Si vous n'avez aucuns fichiers, copiez simplement le lien, sinon cliquez sur <span>Code</span> et copiez le lien de votre projet, il va nous servir pour importer vos fichiers !<br>
+            - Ouvrez <span>Git Bash</span><br>
+            - Sélectionnez la destination que vous désirez sélectionner avec des <span>cd</span> (pour sélectionner une destination) et des <span>ls</span> (pour afficher le contenu de vos dossiers). De préférences, mettez-le dans un dossier sur votre compte !<br>
+            - Mettez tout vos fichiers dans ce dossier<br>
+            - Effectuez la commande <span>git clone [url-du-projet]</span> (en remplaçant encore une fois <span>[url-du-projet]</span> par le lien de votre projet)<br>
+            - Effectuez vos actions (comme créer le fichier <span>readme.md</span> ou n'importe quel fichier)<br>
+            - Effectuez ensuite la commande <span>git add *</span> pour ajouter tout les fichiers de votre répertoire<br>
+            - Effectuez ensuite la commande <span>git commit -m "[Votre commit]"</span> (remplacez le `[Votre commit]` par le commentaire de votre commit, comme par exemple `Ajout de différents fichiers`)<br>
+            - Effectuez enfin la commande <span>git push origin main</span> pour poster vos changements</p>
+        <hr>
+        <h2>Vous avez fini !</h2>
+        <p>Félicitations ! Vous venez de prendre en main Git et Github ! Si vous avez besoins d'aides, passez par notre <a href="https://discord.gg/Uv6DHVsW" target="_blank">Discord</a> !</p>
+    </div>
+</main>
+<footer>
+    <h4>Créé par Enio Aiello</h4>
+</footer>
+</body>
+</html>
