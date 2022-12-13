@@ -16,9 +16,6 @@ Pour pouvoir commencer à importer vos fichiers sur votre répertoire il vous fa
 - Et enfin, effectuez ensuite la commande `git config --global user.email "[adresse email]"`, et encore une fois, faites attention à remplacer `[adresse email]` par l'**adresse e-mail de votre compte Github** !
 ## Suite du tutoriel
 Le tutoriel est toujours en cours de création, revenez plus tard !
-<!-- Si vous n'avez aucuns fichiers, copiez simplement le lien, sinon cliquez sur `Code` et copiez le lien de votre projet, il va nous servir pour importer vos fichiers !
-- Ouvrez `Git Bash`
-- Sélectionnez la destination que vous désirez sélectionner avec des `cd` (pour sélectionner une destination) et des `ls` (pour afficher le contenu de vos dossiers). De préférences, mettez-le dans un dossier sur votre compte !
-- Mettez tout vos fichiers dans ce dossier
-- Effectuez la commande `git init [nom-du-projet]` (en remplaçant encore une fois `[nom-du-projet]` par le nom de votre projet)
-- Effectuez -->
+## Notes
+Le tutoriel est toujours en création...<br>
+Le tutoriel va être déplacé sur le [site](https://enioaiello.github.io/Tutoriel-Git) !
